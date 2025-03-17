@@ -1,0 +1,91 @@
+body{
+    background-color: #fefae0 !important;
+    position: relative;
+}
+.navbar{
+    position: fixed;
+}
+h1, h2, h5{
+    font-family: "Montserrat", sans-serif; 
+    color: #606c38;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+strong{
+    font-weight: 600;
+}
+li{
+    position: relative;
+}
+.exp-details{
+    position: relative;
+}
+ul li::marker{
+    color: #606c38bd;
+}
+ul li:nth-child(1) .exp-details::before{
+    content: "";
+    top: -0.6em;
+    position: absolute;
+    display: block;
+    border: 1px solid #606c3863;
+    rotate: 0deg;
+    height: calc(100% - -1.9rem);
+    left: calc(-1rem - 1px);
+}
+/* ul li:nth-child(2):nth-child(2) .exp-details::before{
+    content: "";
+    top: -0.6em;
+    position: absolute;
+    display: block;
+    border: 1px solid #606c3863;
+    rotate: 0deg;
+    height: calc(100% - 1.9rem);
+    left: calc(-1rem - 1px);
+} */
+
+p{
+    font-family: "Raleway", sans-serif;
+}
+.lhs{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.lhs h2{
+    font-size: 1.5rem;
+    color: #606c38;
+}
+.lhs p{
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    color: #606c38
+}
+.sticky{
+    height: 100vh;
+    background-color: #283618;
+    position: sticky;
+    top: 0;
+}
+.sticky h1{
+    font-size: 5rem;
+}
+.sticky p{
+    font-size: 2rem;
+}
+.sticky h1, .sticky p{
+    color: #fff;
+}
+.sticky img{
+    border-radius: 10px;
+}
+.projects .content{
+    gap: 20px;
+}
+.projects .content img{
+    width: 200px;
+    border-radius: 10px;
+}
